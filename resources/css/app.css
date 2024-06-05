@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+label{
+    font-weight: 600;
+    border:none !important;
+    box-shadow: none !important;
+}
+
+input,input[type="text"],input[type="number"],input[type="password"]{
+    border:none !important;
+    box-shadow: none !important;
+}
+textarea{
+    border:none !important;
+    box-shadow: none !important;
+}
+.important{
+    color:red;
+}
